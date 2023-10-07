@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaria: #1b1c21;
+    --secundaria: #212228;
+}
+
+html{
+    min-width: 1280px !important;
+}
+
+body{
+    width: 100vw;
+    background-color: var(--primaria);
+    font-family: Ubuntu;
+    color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Alata !important;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header */
+
+nav{
+    padding: 5px 0;
+}
+
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .container .logo{
+    width: 75px;
+    height: 75px;
+}
+
+nav .container #nav-links ul li{
+    margin-left: 35px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+nav .container #nav-links ul li::before{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease-in-out;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -ms-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+}
+
+nav .container #nav-links ul li:hover::before {
+    width: 100%; /* A borda cresce para 100% da largura do link */
+}
+@media (max-width: 1080px) {
+    /* Header */
+
+    html{
+        min-width: 0 !important;
+    }
+
+    nav .container{
+        justify-content: center;
+    }
+
+    nav .container #nav-links{
+        display: none;
+    }
+}
+
+
+
+
+
