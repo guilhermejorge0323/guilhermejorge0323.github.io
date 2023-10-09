@@ -30,6 +30,7 @@
 html{
     min-width: 1280px !important;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -40,7 +41,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: Alata !important;
+    font-family: Ubuntu !important;
 }
 
 ul{
@@ -116,7 +117,7 @@ nav .container #nav-links ul li::before{
 }
 
 nav .container #nav-links ul li:hover::before {
-    width: 100%; /* A borda cresce para 100% da largura do link */
+    width: 100%;
 }
 
 /* Conteudo header */
@@ -173,9 +174,62 @@ header #conteudo-header .container #area-image-header img{
 
 
 
+
+
 /* Main */
 main{
-    height: 1000px;
+    padding: 70px 0;
+}
+
+main #area-habilidades h1{
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+main .titulo-main{
+    font-size: 2vw;
+    margin-bottom: 35px;
+}
+
+main #area-habilidades #habilidades{
+    background-color: var(--secundaria);
+    padding: 50px 0;
+}
+
+#habilidades h1{
+    margin:  0 0 55px 0;
+}
+
+main #area-habilidades #habilidades #habilidades-front{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+main #area-habilidades #habilidades #habilidades-back{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+main #area-habilidades #habilidades .container-habilidade{
+    display: flex;
+    justify-content: center;
+}
+
+main #area-habilidades #habilidades .card-habilidade{
+    background-color: var(--primaria);
+    padding: 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+main #area-habilidades #habilidades .card-habilidade img{
+    width: 8vw;
+    height: 8vw;
 }
 
 @media (max-width: 1080px) {
@@ -247,6 +301,78 @@ main{
         width: 50vw;
         height: 50vw;
     }
+
+    /* Main */
+
+    main .titulo-main{
+        font-size: 6vw !important;
+    }
+
+    main #area-habilidades h1{
+        font-size: 4vw;
+    }
+
+    main #area-habilidades #habilidades #habilidades-front{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'html css'
+        'sass js'
+        'webpack webpack' ;
+        gap: 10px;
+    }
+
+    #habilidades-front #html{
+        grid-area: html;
+    }
+    #habilidades-front #css{
+        grid-area: css;
+    }
+    #habilidades-front #sass{
+        grid-area: sass;
+    }
+    #habilidades-front #js{
+        grid-area: js;
+    }
+    #habilidades-front #webpack{
+        grid-area: webpack;
+    }
+
+    main #area-habilidades #habilidades #habilidades-back{
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        grid-template-areas: 
+        'node express'
+        'api mysql';
+    }
+
+    #habilidades-back #node{
+        grid-area: node;
+    }
+
+    #habilidades-back #express{
+        grid-area: express;
+    }
+
+    #habilidades-back #api{
+        grid-area: api;
+    }
+
+    #habilidades-back #mysql{
+        grid-area: mysql;
+    }
+
+    main #area-habilidades #habilidades  .container-habilidade .card-habilidade{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    main #area-habilidades #habilidades  .container-habilidade .card-habilidade img{
+        width: 12vw;
+        height: 12vw;
+    }
+
+
 }
 
 
