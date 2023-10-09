@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Teko&family=Ubuntu:wght@300&display=swap');
 
 *{
     padding: 0;
@@ -6,20 +6,35 @@
     box-sizing: border-box;
 }
 
+/* Estilização da barra de rolagem para navegadores WebKit */
+::-webkit-scrollbar {
+    width: 5px; /* Largura da barra de rolagem */
+  }
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Cor de fundo da área da barra de rolagem */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da alça da barra de rolagem */
+    border-radius: 5px; /* Borda arredondada para a alça */
+  }
+
 :root{
     --primaria: #1b1c21;
-    --secundaria: #212228;
+    --secundaria:  #282828;
 }
 
 html{
     min-width: 1280px !important;
+    overflow-x: hidden;
 }
 
 body{
     width: 100vw;
     background-color: var(--primaria);
     font-family: Ubuntu;
-    color: #fff;
+    color: #ffffff;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -43,27 +58,39 @@ a{
 
 /* header */
 
+header{
+    background-image: url('../img/Rect\ Light.svg');
+    background-repeat: repeat-x;
+    /* background-position: bottom; */
+    background-attachment: fixed;
+    height: 80vh;
+}
+
 nav{
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 nav .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 nav .container .logo{
-    width: 75px;
-    height: 75px;
+    width: 40px;
+    height: 40px;
 }
 
 nav .container #nav-links ul li{
     margin-left: 35px;
+    padding: 5px 0;
     position: relative;
     overflow: hidden;
 
 }
+
+
 
 nav .container #nav-links ul li::before{
     content: '';
@@ -89,13 +116,57 @@ nav .container #nav-links ul li::before{
 nav .container #nav-links ul li:hover::before {
     width: 100%; /* A borda cresce para 100% da largura do link */
 }
-@media (max-width: 1080px) {
-    /* Header */
 
+/* Conteudo header */
+
+header #conteudo-header{
+    height: 90%;
+}
+
+header #conteudo-header .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+header #conteudo-header .container #area-image-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #conteudo-header .container #area-image-header img{
+    border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -ms-border-radius: 1000px;
+    -o-border-radius: 1000px;
+    border: 2px solid #fff;
+}
+
+header h1{
+    font-family: teko !important;
+    line-height: 100%;
+    font-size: 2.5em;
+}
+
+/* Main */
+main{
+    height: 1000px;
+}
+
+
+
+
+@media (max-width: 1080px) {
     html{
         min-width: 0 !important;
     }
 
+    .container{
+        width: 90%;
+    }
+    /* Header */
     nav .container{
         justify-content: center;
     }

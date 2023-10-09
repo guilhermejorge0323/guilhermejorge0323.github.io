@@ -20017,13 +20017,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../img/Rect Light.svg */ "./src/assets/img/Rect Light.svg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Alata&family=Ubuntu:wght@300&display=swap);"]);
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Alata&family=Teko&family=Ubuntu:wght@300&display=swap);"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n:root{\r\n    --primaria: #1b1c21;\r\n    --secundaria: #212228;\r\n}\r\n\r\nhtml{\r\n    min-width: 1280px !important;\r\n}\r\n\r\nbody{\r\n    width: 100vw;\r\n    background-color: var(--primaria);\r\n    font-family: Ubuntu;\r\n    color: #fff;\r\n}\r\n\r\nh1,h2,h3,h4,h5,h6{\r\n    font-family: Alata !important;\r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n}\r\n\r\na{\r\n    text-decoration: none;\r\n    color: #fff;\r\n}\r\n\r\n.container{\r\n    width: 80%;\r\n    margin: 0 auto;\r\n}\r\n\r\n/* header */\r\n\r\nnav{\r\n    padding: 5px 0;\r\n}\r\n\r\nnav .container{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n}\r\n\r\nnav .container .logo{\r\n    width: 75px;\r\n    height: 75px;\r\n}\r\n\r\nnav .container #nav-links ul li{\r\n    margin-left: 35px;\r\n    position: relative;\r\n    overflow: hidden;\r\n\r\n}\r\n\r\nnav .container #nav-links ul li::before{\r\n    content: '';\r\n    display: block;\r\n    position: absolute;\r\n    bottom: 0px;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    -webkit-transform: translateX(-50%);\r\n    -moz-transform: translateX(-50%);\r\n    -ms-transform: translateX(-50%);\r\n    -o-transform: translateX(-50%);\r\n    width: 0;\r\n    height: 2px;\r\n    background-color: #fff;\r\n    transition: width 0.3s ease-in-out;\r\n    -webkit-transition: width 0.3s ease-in-out;\r\n    -moz-transition: width 0.3s ease-in-out;\r\n    -ms-transition: width 0.3s ease-in-out;\r\n    -o-transition: width 0.3s ease-in-out;\r\n}\r\n\r\nnav .container #nav-links ul li:hover::before {\r\n    width: 100%; /* A borda cresce para 100% da largura do link */\r\n}\r\n@media (max-width: 1080px) {\r\n    /* Header */\r\n\r\n    html{\r\n        min-width: 0 !important;\r\n    }\r\n\r\n    nav .container{\r\n        justify-content: center;\r\n    }\r\n\r\n    nav .container #nav-links{\r\n        display: none;\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n", "",{"version":3,"sources":["webpack://./src/assets/css/style.css"],"names":[],"mappings":"AAEA;IACI,UAAU;IACV,SAAS;IACT,sBAAsB;AAC1B;;AAEA;IACI,mBAAmB;IACnB,qBAAqB;AACzB;;AAEA;IACI,4BAA4B;AAChC;;AAEA;IACI,YAAY;IACZ,iCAAiC;IACjC,mBAAmB;IACnB,WAAW;AACf;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,gBAAgB;IAChB,aAAa;AACjB;;AAEA;IACI,qBAAqB;IACrB,WAAW;AACf;;AAEA;IACI,UAAU;IACV,cAAc;AAClB;;AAEA,WAAW;;AAEX;IACI,cAAc;AAClB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,8BAA8B;AAClC;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;;AAEA;IACI,iBAAiB;IACjB,kBAAkB;IAClB,gBAAgB;;AAEpB;;AAEA;IACI,WAAW;IACX,cAAc;IACd,kBAAkB;IAClB,WAAW;IACX,SAAS;IACT,2BAA2B;IAC3B,mCAAmC;IACnC,gCAAgC;IAChC,+BAA+B;IAC/B,8BAA8B;IAC9B,QAAQ;IACR,WAAW;IACX,sBAAsB;IACtB,kCAAkC;IAClC,0CAA0C;IAC1C,uCAAuC;IACvC,sCAAsC;IACtC,qCAAqC;AACzC;;AAEA;IACI,WAAW,EAAE,gDAAgD;AACjE;AACA;IACI,WAAW;;IAEX;QACI,uBAAuB;IAC3B;;IAEA;QACI,uBAAuB;IAC3B;;IAEA;QACI,aAAa;IACjB;AACJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Alata&family=Ubuntu:wght@300&display=swap');\r\n\r\n*{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n:root{\r\n    --primaria: #1b1c21;\r\n    --secundaria: #212228;\r\n}\r\n\r\nhtml{\r\n    min-width: 1280px !important;\r\n}\r\n\r\nbody{\r\n    width: 100vw;\r\n    background-color: var(--primaria);\r\n    font-family: Ubuntu;\r\n    color: #fff;\r\n}\r\n\r\nh1,h2,h3,h4,h5,h6{\r\n    font-family: Alata !important;\r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n}\r\n\r\na{\r\n    text-decoration: none;\r\n    color: #fff;\r\n}\r\n\r\n.container{\r\n    width: 80%;\r\n    margin: 0 auto;\r\n}\r\n\r\n/* header */\r\n\r\nnav{\r\n    padding: 5px 0;\r\n}\r\n\r\nnav .container{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n}\r\n\r\nnav .container .logo{\r\n    width: 75px;\r\n    height: 75px;\r\n}\r\n\r\nnav .container #nav-links ul li{\r\n    margin-left: 35px;\r\n    position: relative;\r\n    overflow: hidden;\r\n\r\n}\r\n\r\nnav .container #nav-links ul li::before{\r\n    content: '';\r\n    display: block;\r\n    position: absolute;\r\n    bottom: 0px;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    -webkit-transform: translateX(-50%);\r\n    -moz-transform: translateX(-50%);\r\n    -ms-transform: translateX(-50%);\r\n    -o-transform: translateX(-50%);\r\n    width: 0;\r\n    height: 2px;\r\n    background-color: #fff;\r\n    transition: width 0.3s ease-in-out;\r\n    -webkit-transition: width 0.3s ease-in-out;\r\n    -moz-transition: width 0.3s ease-in-out;\r\n    -ms-transition: width 0.3s ease-in-out;\r\n    -o-transition: width 0.3s ease-in-out;\r\n}\r\n\r\nnav .container #nav-links ul li:hover::before {\r\n    width: 100%; /* A borda cresce para 100% da largura do link */\r\n}\r\n@media (max-width: 1080px) {\r\n    /* Header */\r\n\r\n    html{\r\n        min-width: 0 !important;\r\n    }\r\n\r\n    nav .container{\r\n        justify-content: center;\r\n    }\r\n\r\n    nav .container #nav-links{\r\n        display: none;\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n/* Estilização da barra de rolagem para navegadores WebKit */\r\n::-webkit-scrollbar {\r\n    width: 5px; /* Largura da barra de rolagem */\r\n  }\r\n\r\n::-webkit-scrollbar-track {\r\n    background: transparent; /* Cor de fundo da área da barra de rolagem */\r\n  }\r\n\r\n  ::-webkit-scrollbar-thumb {\r\n    background: #888; /* Cor da alça da barra de rolagem */\r\n    border-radius: 5px; /* Borda arredondada para a alça */\r\n  }\r\n\r\n:root{\r\n    --primaria: #1b1c21;\r\n    --secundaria:  #282828;\r\n}\r\n\r\nhtml{\r\n    min-width: 1280px !important;\r\n    overflow-x: hidden;\r\n}\r\n\r\nbody{\r\n    width: 100vw;\r\n    background-color: var(--primaria);\r\n    font-family: Ubuntu;\r\n    color: #ffffff;\r\n}\r\n\r\nh1,h2,h3,h4,h5,h6{\r\n    font-family: Alata !important;\r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n}\r\n\r\na{\r\n    text-decoration: none;\r\n    color: #fff;\r\n}\r\n\r\n.container{\r\n    width: 80%;\r\n    margin: 0 auto;\r\n}\r\n\r\n/* header */\r\n\r\nheader{\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: repeat-x;\r\n    /* background-position: bottom; */\r\n    background-attachment: fixed;\r\n    height: 80vh;\r\n}\r\n\r\nnav{\r\n    padding: 10px 0;\r\n}\r\n\r\nnav .container{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    position: relative;\r\n}\r\n\r\nnav .container .logo{\r\n    width: 40px;\r\n    height: 40px;\r\n}\r\n\r\nnav .container #nav-links ul li{\r\n    margin-left: 35px;\r\n    padding: 5px 0;\r\n    position: relative;\r\n    overflow: hidden;\r\n\r\n}\r\n\r\n\r\n\r\nnav .container #nav-links ul li::before{\r\n    content: '';\r\n    display: block;\r\n    position: absolute;\r\n    bottom: 0px;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    -webkit-transform: translateX(-50%);\r\n    -moz-transform: translateX(-50%);\r\n    -ms-transform: translateX(-50%);\r\n    -o-transform: translateX(-50%);\r\n    width: 0;\r\n    height: 2px;\r\n    background-color: #fff;\r\n    transition: width 0.3s ease-in-out;\r\n    -webkit-transition: width 0.3s ease-in-out;\r\n    -moz-transition: width 0.3s ease-in-out;\r\n    -ms-transition: width 0.3s ease-in-out;\r\n    -o-transition: width 0.3s ease-in-out;\r\n}\r\n\r\nnav .container #nav-links ul li:hover::before {\r\n    width: 100%; /* A borda cresce para 100% da largura do link */\r\n}\r\n\r\n/* Conteudo header */\r\n\r\nheader #conteudo-header{\r\n    height: 90%;\r\n}\r\n\r\nheader #conteudo-header .container{\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    height: 100%;\r\n}\r\n\r\nheader #conteudo-header .container #area-image-header{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\nheader #conteudo-header .container #area-image-header img{\r\n    border-radius: 1000px;\r\n    -webkit-border-radius: 1000px;\r\n    -moz-border-radius: 1000px;\r\n    -ms-border-radius: 1000px;\r\n    -o-border-radius: 1000px;\r\n    border: 2px solid #fff;\r\n}\r\n\r\nheader h1{\r\n    font-family: teko !important;\r\n    line-height: 100%;\r\n    font-size: 2.5em;\r\n}\r\n\r\n/* Main */\r\nmain{\r\n    height: 1000px;\r\n}\r\n\r\n\r\n\r\n\r\n@media (max-width: 1080px) {\r\n    html{\r\n        min-width: 0 !important;\r\n    }\r\n\r\n    .container{\r\n        width: 90%;\r\n    }\r\n    /* Header */\r\n    nav .container{\r\n        justify-content: center;\r\n    }\r\n\r\n    nav .container #nav-links{\r\n        display: none;\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n", "",{"version":3,"sources":["webpack://./src/assets/css/style.css"],"names":[],"mappings":"AAEA;IACI,UAAU;IACV,SAAS;IACT,sBAAsB;AAC1B;;AAEA,4DAA4D;AAC5D;IACI,UAAU,EAAE,gCAAgC;EAC9C;;AAEF;IACI,uBAAuB,EAAE,6CAA6C;EACxE;;EAEA;IACE,gBAAgB,EAAE,oCAAoC;IACtD,kBAAkB,EAAE,kCAAkC;EACxD;;AAEF;IACI,mBAAmB;IACnB,sBAAsB;AAC1B;;AAEA;IACI,4BAA4B;IAC5B,kBAAkB;AACtB;;AAEA;IACI,YAAY;IACZ,iCAAiC;IACjC,mBAAmB;IACnB,cAAc;AAClB;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,gBAAgB;IAChB,aAAa;AACjB;;AAEA;IACI,qBAAqB;IACrB,WAAW;AACf;;AAEA;IACI,UAAU;IACV,cAAc;AAClB;;AAEA,WAAW;;AAEX;IACI,yDAA+C;IAC/C,2BAA2B;IAC3B,iCAAiC;IACjC,4BAA4B;IAC5B,YAAY;AAChB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,kBAAkB;AACtB;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;;AAEA;IACI,iBAAiB;IACjB,cAAc;IACd,kBAAkB;IAClB,gBAAgB;;AAEpB;;;;AAIA;IACI,WAAW;IACX,cAAc;IACd,kBAAkB;IAClB,WAAW;IACX,SAAS;IACT,2BAA2B;IAC3B,mCAAmC;IACnC,gCAAgC;IAChC,+BAA+B;IAC/B,8BAA8B;IAC9B,QAAQ;IACR,WAAW;IACX,sBAAsB;IACtB,kCAAkC;IAClC,0CAA0C;IAC1C,uCAAuC;IACvC,sCAAsC;IACtC,qCAAqC;AACzC;;AAEA;IACI,WAAW,EAAE,gDAAgD;AACjE;;AAEA,oBAAoB;;AAEpB;IACI,WAAW;AACf;;AAEA;IACI,aAAa;IACb,8BAA8B;IAC9B,YAAY;AAChB;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;IACrB,6BAA6B;IAC7B,0BAA0B;IAC1B,yBAAyB;IACzB,wBAAwB;IACxB,sBAAsB;AAC1B;;AAEA;IACI,4BAA4B;IAC5B,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA,SAAS;AACT;IACI,cAAc;AAClB;;;;;AAKA;IACI;QACI,uBAAuB;IAC3B;;IAEA;QACI,UAAU;IACd;IACA,WAAW;IACX;QACI,uBAAuB;IAC3B;;IAEA;QACI,aAAa;IACjB;AACJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Alata&family=Teko&family=Ubuntu:wght@300&display=swap');\r\n\r\n*{\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n/* Estilização da barra de rolagem para navegadores WebKit */\r\n::-webkit-scrollbar {\r\n    width: 5px; /* Largura da barra de rolagem */\r\n  }\r\n\r\n::-webkit-scrollbar-track {\r\n    background: transparent; /* Cor de fundo da área da barra de rolagem */\r\n  }\r\n\r\n  ::-webkit-scrollbar-thumb {\r\n    background: #888; /* Cor da alça da barra de rolagem */\r\n    border-radius: 5px; /* Borda arredondada para a alça */\r\n  }\r\n\r\n:root{\r\n    --primaria: #1b1c21;\r\n    --secundaria:  #282828;\r\n}\r\n\r\nhtml{\r\n    min-width: 1280px !important;\r\n    overflow-x: hidden;\r\n}\r\n\r\nbody{\r\n    width: 100vw;\r\n    background-color: var(--primaria);\r\n    font-family: Ubuntu;\r\n    color: #ffffff;\r\n}\r\n\r\nh1,h2,h3,h4,h5,h6{\r\n    font-family: Alata !important;\r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n}\r\n\r\na{\r\n    text-decoration: none;\r\n    color: #fff;\r\n}\r\n\r\n.container{\r\n    width: 80%;\r\n    margin: 0 auto;\r\n}\r\n\r\n/* header */\r\n\r\nheader{\r\n    background-image: url('../img/Rect\\ Light.svg');\r\n    background-repeat: repeat-x;\r\n    /* background-position: bottom; */\r\n    background-attachment: fixed;\r\n    height: 80vh;\r\n}\r\n\r\nnav{\r\n    padding: 10px 0;\r\n}\r\n\r\nnav .container{\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    position: relative;\r\n}\r\n\r\nnav .container .logo{\r\n    width: 40px;\r\n    height: 40px;\r\n}\r\n\r\nnav .container #nav-links ul li{\r\n    margin-left: 35px;\r\n    padding: 5px 0;\r\n    position: relative;\r\n    overflow: hidden;\r\n\r\n}\r\n\r\n\r\n\r\nnav .container #nav-links ul li::before{\r\n    content: '';\r\n    display: block;\r\n    position: absolute;\r\n    bottom: 0px;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    -webkit-transform: translateX(-50%);\r\n    -moz-transform: translateX(-50%);\r\n    -ms-transform: translateX(-50%);\r\n    -o-transform: translateX(-50%);\r\n    width: 0;\r\n    height: 2px;\r\n    background-color: #fff;\r\n    transition: width 0.3s ease-in-out;\r\n    -webkit-transition: width 0.3s ease-in-out;\r\n    -moz-transition: width 0.3s ease-in-out;\r\n    -ms-transition: width 0.3s ease-in-out;\r\n    -o-transition: width 0.3s ease-in-out;\r\n}\r\n\r\nnav .container #nav-links ul li:hover::before {\r\n    width: 100%; /* A borda cresce para 100% da largura do link */\r\n}\r\n\r\n/* Conteudo header */\r\n\r\nheader #conteudo-header{\r\n    height: 90%;\r\n}\r\n\r\nheader #conteudo-header .container{\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    height: 100%;\r\n}\r\n\r\nheader #conteudo-header .container #area-image-header{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\nheader #conteudo-header .container #area-image-header img{\r\n    border-radius: 1000px;\r\n    -webkit-border-radius: 1000px;\r\n    -moz-border-radius: 1000px;\r\n    -ms-border-radius: 1000px;\r\n    -o-border-radius: 1000px;\r\n    border: 2px solid #fff;\r\n}\r\n\r\nheader h1{\r\n    font-family: teko !important;\r\n    line-height: 100%;\r\n    font-size: 2.5em;\r\n}\r\n\r\n/* Main */\r\nmain{\r\n    height: 1000px;\r\n}\r\n\r\n\r\n\r\n\r\n@media (max-width: 1080px) {\r\n    html{\r\n        min-width: 0 !important;\r\n    }\r\n\r\n    .container{\r\n        width: 90%;\r\n    }\r\n    /* Header */\r\n    nav .container{\r\n        justify-content: center;\r\n    }\r\n\r\n    nav .container #nav-links{\r\n        display: none;\r\n    }\r\n}\r\n\r\n\r\n\r\n\r\n\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -20121,6 +20126,42 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -21248,6 +21289,17 @@ function styleTagTransform(css, styleElement) {
 }
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/assets/img/Rect Light.svg":
+/*!***************************************!*\
+  !*** ./src/assets/img/Rect Light.svg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "af5ea156f9c024ff44c5.svg";
+
 /***/ })
 
 /******/ 	});
@@ -21275,6 +21327,9 @@ module.exports = styleTagTransform;
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -21327,6 +21382,55 @@ module.exports = styleTagTransform;
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
