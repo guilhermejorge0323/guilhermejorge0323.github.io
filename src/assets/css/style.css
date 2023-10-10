@@ -181,6 +181,10 @@ main{
     padding: 70px 0;
 }
 
+main section{
+    margin: 20vh 0;
+}
+
 main #area-habilidades h1{
     text-align: center;
     font-size: 1.8vw;
@@ -192,7 +196,6 @@ main .titulo-main{
 }
 
 main #area-habilidades #habilidades{
-    background-color: var(--secundaria);
     padding: 50px 0;
 }
 
@@ -203,13 +206,15 @@ main #area-habilidades #habilidades{
 main #area-habilidades #habilidades #habilidades-front{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 35px;
+    gap: 15px;
 }
 
 main #area-habilidades #habilidades #habilidades-back{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 15px;
 }
 
 main #area-habilidades #habilidades .container-habilidade{
@@ -218,7 +223,10 @@ main #area-habilidades #habilidades .container-habilidade{
 }
 
 main #area-habilidades #habilidades .card-habilidade{
-    background-color: var(--primaria);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--secundaria);
     padding: 25px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -359,12 +367,6 @@ main #area-habilidades #habilidades .card-habilidade img{
 
     #habilidades-back #mysql{
         grid-area: mysql;
-    }
-
-    main #area-habilidades #habilidades  .container-habilidade .card-habilidade{
-        display: flex;
-        justify-content: center;
-        width: 100%;
     }
 
     main #area-habilidades #habilidades  .container-habilidade .card-habilidade img{
