@@ -24,7 +24,7 @@
 
 :root{
     --primaria: #1b1c21;
-    --secundaria:  #282828;
+    --secundaria:  #2a2929;
 }
 
 html{
@@ -81,11 +81,12 @@ nav .container{
 }
 
 nav .container .logo{
-    width: 40px;
-    height: 40px;
+    width: 5vw;
+    height: 5vh;
 }
 
 nav .container #nav-links ul li{
+    font-size: 0.93vw;
     margin-left: 35px;
     padding: 5px 0;
     position: relative;
@@ -193,6 +194,7 @@ main #area-habilidades h1{
 main .titulo-main{
     font-size: 2vw;
     margin-bottom: 35px;
+    text-align: center;
 }
 
 main #area-habilidades #habilidades{
@@ -240,7 +242,82 @@ main #area-habilidades #habilidades .card-habilidade img{
     height: 8vw;
 }
 
-@media (max-width: 1080px) {
+/* slides projetos */
+main #area-projetos .container .swiper{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    height: 90vh;
+    background-color: #fff;
+    color: #000 !important;
+}
+
+main #area-projetos .container .swiper .swiper-slide{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-image-slide{
+    overflow-y: scroll;
+}
+main #area-projetos .container .swiper .swiper-slide .area-image-slide img{
+    width: 100%;
+    height: auto;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide{
+    width: 65%;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide h1{
+    font-size: 1.8vw;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide a{
+    color: #000;
+    font-weight: bold;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide a:hover{
+    text-decoration: underline;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide h2{
+    font-size: 1.5vw;
+    margin-bottom: 15px;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide p{
+    line-height: 200%;
+    margin: 15px 0;
+    font-size: 1.1vw;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide .icons-slide{
+    display: flex;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide  img{
+    width: 2vw;
+    height: 2vw;
+}
+
+main #area-projetos .container .swiper .swiper-slide .area-txt-slide .git-icon-slide{
+    position: absolute;
+    bottom: 2vh;
+    right: 2vw;
+}
+
+@media (max-width: 1280px) {
     html{
         min-width: 0 !important;
         min-height: 375px !important;
@@ -372,6 +449,49 @@ main #area-habilidades #habilidades .card-habilidade img{
     main #area-habilidades #habilidades  .container-habilidade .card-habilidade img{
         width: 12vw;
         height: 12vw;
+    }
+
+    /* Slides */
+    main #area-projetos .container .swiper .swiper-slide{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    main #area-projetos .container .swiper{
+        height: 70vh;
+    }
+
+    main #area-projetos .container .swiper .swiper-slide .area-txt-slide{
+        padding: 0 !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide h1{
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide h2{
+        display: none;
+    }
+
+    main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide p{
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    main #area-projetos .container .swiper .swiper-slide .area-txt-slide img{
+        display: none;
     }
 
 
