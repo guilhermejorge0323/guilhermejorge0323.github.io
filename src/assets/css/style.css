@@ -489,6 +489,7 @@ main #area-projetos .container .swiper .swiper-slide .area-txt-slide .git-icon-s
     main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide h1{
         font-size: 5vw;
         text-align: center;
+        margin: 10px 0 !important;
     }
 
     main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide h2{
@@ -496,7 +497,8 @@ main #area-projetos .container .swiper .swiper-slide .area-txt-slide .git-icon-s
     }
 
     main #area-projetos .container .swiper .swiper-slide .area-txt-slide .card-txt-slide p{
-        font-size: 3vw;
+        margin: 0px 0;
+        font-size: 2.8vw;
         text-align: center;
     }
 
