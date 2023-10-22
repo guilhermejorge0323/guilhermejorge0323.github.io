@@ -86,7 +86,7 @@ nav .container .logo{
 }
 
 nav .container #nav-links ul li{
-    font-size: 0.93vw;
+    font-size: 0.9vw;
     margin-left: 35px;
     padding: 5px 0;
     position: relative;
@@ -250,6 +250,8 @@ main #area-projetos .container .swiper{
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     height: 90vh;
+    min-height: 900px;
+    max-height: 2160px;
     background-color: #fff;
     color: #000 !important;
 }
@@ -319,6 +321,68 @@ main #area-projetos .container .swiper .swiper-slide .area-txt-slide .git-icon-s
     bottom: 2vh;
     right: 2vw;
 }
+
+/* footer / contate-me  */
+
+footer{
+    background-color: rgb(12, 12, 12);
+    padding: 30px 0;
+}
+
+footer .container h1{
+    text-align: center;
+}
+
+footer .container #cards-contato{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+footer .container #cards-contato div h2:not(#card-outros h2){
+    font-size: 0.8vw;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer .container #cards-contato div p:not(#card-outros p){
+    font-size: 0.6vw;
+    line-height: 150%;
+    width: 45%;
+    margin-bottom: 15px;
+}
+
+footer .container #cards-contato div a:not(#card-outros a){
+    font-size: 0.5vw;
+    font-weight: bold;
+    line-height: 150%;
+    width: 45%;
+    margin-bottom: 15px;
+}
+
+footer .container #cards-contato div a:hover{
+    text-decoration: underline;
+}
+
+footer .container #cards-contato div#card-outros #linha-contato{
+    display: flex;
+    align-items: center;
+    font-size: 0.5vw;
+    margin-bottom: 20px;
+}
+
+footer .container #cards-contato div#card-outros #linha-contato img{
+    width: 1vw;
+    height: 1vw;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
 
 @media (max-width: 1280px) {
     html{
@@ -466,7 +530,9 @@ main #area-projetos .container .swiper .swiper-slide .area-txt-slide .git-icon-s
     }
 
     main #area-projetos .container .swiper{
-        height: 600px;
+        height: 90vh !important;
+        min-height: 600px !important;
+        max-height: 1366px !important;
     }
 
     main #area-projetos .container .swiper .swiper-slide .area-txt-slide{
@@ -504,6 +570,38 @@ main #area-projetos .container .swiper .swiper-slide .area-txt-slide .git-icon-s
 
     main #area-projetos .container .swiper .swiper-slide .area-txt-slide img{
         display: none;
+    }
+
+    /* Footer */
+    footer .container h1{
+        font-size: 5.5vw !important;
+    }
+
+    footer .container #cards-contato {
+        grid-template-columns: 1fr;
+    }
+
+    footer .container #cards-contato div:not(#card-outros){
+        display: none;
+    }
+
+    footer .container #cards-contato #card-outros{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .container #cards-contato #card-outros #linha-contato{
+        font-size: 3vw !important;
+        flex: 0 0 auto;
+        width: 80%;
+        flex-shrink: 1;
+    }
+
+    footer .container #cards-contato #card-outros #linha-contato img{
+        width: 5vw !important;
+        height: 5vw !important;
     }
 
 
