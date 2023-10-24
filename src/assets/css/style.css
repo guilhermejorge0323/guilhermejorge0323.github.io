@@ -250,7 +250,7 @@ main #area-projetos .container .swiper{
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     height: 90vh;
-    min-height: 900px;
+    min-height: 600px;
     max-height: 2160px;
     background-color: #fff;
     color: #000 !important;
@@ -531,7 +531,7 @@ footer .container #cards-contato div#card-outros #linha-contato img{
 
     main #area-projetos .container .swiper{
         height: 90vh !important;
-        min-height: 600px !important;
+        min-height: 550px !important;
         max-height: 1366px !important;
     }
 
