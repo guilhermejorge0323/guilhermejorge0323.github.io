@@ -4,24 +4,29 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, 'public','assets','js'),
-        filename: 'blundle.js'
+        path: path.resolve(__dirname, 'public', 'assets', 'js'),
+        filename: 'bundle.js'
     },
     module: {
         rules: [{
-            exclude: /node_modules/,
-            test: /\.js$/,
-            use: {
-                loader: 'babel-loader',
-                options: {
-                    presets: ['@babel/env']
-                }
+                exclude: /node_modules/,
+                test: /\.js$/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/env']
+                    }
+                },
             },
-        },
-        {
-            test: /\.css$/,
-            use: ['style-loader', 'css-loader']
-        }],
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(png|jpg|gif|svg)$/i,
+                type: 'asset/resource'
+            }
+        ],
     },
     devtool: 'source-map',
 };
